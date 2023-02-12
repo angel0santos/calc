@@ -1,0 +1,2 @@
+docker build -t asantos-calc .
+docker run -d --name calculadora -p 9999:9999 asantos-calc
